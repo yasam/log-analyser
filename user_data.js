@@ -230,51 +230,7 @@ function labelSettings(){
 }
 function loadDefaultLabels(){
 	resetUserDataLabel();
-	
-	addUserDataLabel('MediaPlayer(S0');
-	addUserDataLabel('MediaPlayer(S1)');
-	addUserDataLabel('MediaPlayer(S2)');
-	addUserDataLabel('MediaPlayer(S3)');
-	
-	addUserDataLabel('LocalPlayer');
-	addUserDataLabel('RemotePlayer(1)');
-	addUserDataLabel('RemotePlayer(2)');
-	addUserDataLabel('RemotePlayer(3)');
-	
-	addUserDataLabel('RuiSession(S1)');
-	addUserDataLabel('RuiSession(S2)');
-	addUserDataLabel('RuiSession(S3)');
-	
-	addUserDataLabel('DispatchKey[0]');
-	addUserDataLabel('DispatchKey[1]');
-	addUserDataLabel('DispatchKey[2]');
-	addUserDataLabel('DispatchKey[3]');
-	
-	addUserDataLabel('sessionID: 0');
-	addUserDataLabel('sessionID: 1');
-	addUserDataLabel('sessionID: 2');
-	addUserDataLabel('sessionID: 3');
-
-	addUserDataLabel('MediaPlayerProxy.load()');
-	addUserDataLabel('captureInitialized(): submit CaptureBuffer');
-	addUserDataLabel('- stop(): acquireResources');
-	addUserDataLabel('requestTune');
-	addUserDataLabel('watchStation(): request to watch channel');
-	addUserDataLabel('watchRecording');
-
-	addUserDataLabel('showOsd');
-	addUserDataLabel('removeOsd');
-	addUserDataLabel('loadScreen');
-	
-	addUserDataLabel('java.io.');
-	addUserDataLabel('java.lang.');
-	addUserDataLabel('com.directv.mw.util.');
-	addUserDataLabel('at com/');
-	
-	addUserDataLabel('GdbSetTimeOfDay_SetTime');
-
 	addUserDataLabel('DEADLOCK');
 	addUserDataLabel('WATCHDOG');
 	addUserDataLabel('DUMPSTACK');
-	addUserDataLabel("dropping key!");
 }

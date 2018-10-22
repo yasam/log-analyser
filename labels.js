@@ -384,38 +384,9 @@ function createUserDataLabels(){
 
 function autoDetectLabels(){
 	startProcessingTimer("autoDetectLabels");
-	addLabel("FATAL", false);
-	addLabel("APGLIB", false);
-	addLabel("[UCBIN-SERVER]", false);
-	addLabel("[NVRAM]", false);
-	addLabel("CHAN_NO_LONGER_VISIBLE", false);
-	addLabel("OPENGL_DL", false);
-	addLabel("OPENGL Error", false);
-	addLabel("CORE_ReadNvram", false);
-	addLabel("CORE_WriteNvram", false);
-	addLabel("[AUTHORIZATION]", false);
-	addLabel("requestTune", false);
-	addLabel("notifyTune", false);
-	addLabel('but the station is incorrect', false);
-	addLabel("captureInitialized(): submit CaptureBuffer", false);
-	addLabel("MediaPlayerProxy.load()", false);
-	addLabel("- stop(): acquireResources", false);
 	addLabel("DEADLOCK", false);
 	addLabel("DUMPSTACK", false);
-	addLabel("dropping key!", false);
-	addLabel("at com/", false);
-	addLabel("java.io.", false);
-	addLabel("java.lang.", false);
-	addLabel("com.directv.mw.util.", false);
-	addLabel("[KD]: DispatchKey=1", false);
-	addLabel("DispatchKey[0]", false);
-	addLabel("DispatchKey[1]", false);
-	addLabel("DispatchKey[2]", false);
-	addLabel("DispatchKey[3]", false);
-	addLabel('Genie', false);
-	addLabel('showOsd', false);
-	addLabel("removeOsd", false);
-	addLabel("*** MAC:", false);
+	addLabel("WATCHDOG", false);
 	stopProcessingTimer();
 }
 
