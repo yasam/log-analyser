@@ -152,16 +152,7 @@ echo "</pre>";
 		<tbody>
 <?php
 
-$predefinedLabels = array("     at com/ucentric/",
-		"     at com/directv/",
-		"     at java/lang/",
-		"     at java/io/",
-		" last message repeated",
-		" java.lang.NullPointerException",
-		" java.lang.Throwable",
-		" FATAL APG",
-		" FATAL Ams",
-		"  appstarter",
+$predefinedLabels = array(
 		"  udhcpc"
 	);
 $labels = array();
